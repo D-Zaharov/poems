@@ -6,6 +6,25 @@ body {
 main {
   flex: 1 0 auto;
 }
+.logo--content,
+.logo--img {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo--content h1 {
+  margin: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.logo--content p {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 12px;
+}
 .chart {
   position: relative;
   display: inline-block;
