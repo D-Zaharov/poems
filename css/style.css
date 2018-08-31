@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pie-text {
+  font-size: 6.5pt;
+}
+.percent {
+  display: inline-block;
+  line-height: 90px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+.span6 {
+  float: left;
+  width: 50%;
+}

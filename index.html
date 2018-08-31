@@ -4,7 +4,9 @@
     <title>Cписок стихотворений</title>
     <meta charset="utf-8">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css" media="screen,projection">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.css"
+        media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,91 +14,102 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo center">
-                    <div>
-                        <h5><strong>DANIIL</strong> FRONT/BACKEND DEVELOPER</h5>
-                    </div>
-                </a>
-            </div>
-        </nav>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <section class="center-left">
-                    <p>
-                        <h5>Список стихотворений</h5>
-                    </p>
-                </section>
-            </div>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center">
+                        <div>
+                            <h5><strong>DANIIL</strong> FRONT/BACKEND DEVELOPER </h5>
+                        </div>
+                    </a>
+                </div>
+            </nav>
         </div>
-        <div class="row">
-            <div class="col s12">
-                <ul class="collection">
-                    <li class="collection-item avatar">
-                        <img src="./img/blok.png" alt="" class="circle">
-                        <span class="title">
-                            <a href="https://goo.gl/qNHQjY" data-position="top" data-tooltip="Ссылка на WiKiPedia"
-                                class="black-text" target="_blank">Александр
-                                Блок</span>
-                        <p><em>Ночь. Улица. Фонарь. Аптека.</em></p>
-                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    </li>
-                    <li class="collection-item avatar">
-                        <img src="./img/brodskiy.png" alt="" class="circle">
-                        <span class="title"><a href="https://goo.gl/cv9Byo" data-position="top" data-tooltip="Ссылка на WiKiPedia"
-                                class="black-text" target="_blank">Иосиф
-                                Бродский</span>
-                        <p><em>Осенний вечер в скромном городке</em><br>
-                            <em>Бродский о стихотворении "Осенний вечер в скромном городке".</em>
-                        </p>
-                        <a href="#!" class="secondary-content"><i class="material-icons yellow-text">grade</i></a>
-                    </li>
-                    <li class="collection-item avatar">
-                        <img src="./img/mayakovskiy.png" alt="" class="circle">
-
-                        <span class="title"><a href="https://goo.gl/hJziS3" data-position="top" data-tooltip="Ссылка на WiKiPedia"
-                                class="black-text" target="_blank">Владимир
-                                Маяковский</span>
-                        <p><em>А вы могли бы?</em>
-                        </p>
-                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    </li>
-                    <li class="collection-item avatar">
-                        <img src="./img/pasternak.png" alt="" class="circle">
-                        <span class="title"><a href="https://goo.gl/7V7GK7" data-position="top" data-tooltip="Ссылка на WiKiPedia"
-                                class="black-text" target="_blank">Борис
-                                Пастернак</span>
-                        <p><em>Быть знаменитым некрасиво</em>
-                        </p>
-                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <form class="col s12">
+    </header>
+    <main>
+        <div class="container">
             <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <form class="col s12">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email">Email</label>
-                                </div>
-                                <button class="btn waves-effect waves-light disabled" type="submit" name="action">Submit
-                                    <i class="material-icons right">send</i>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </form>
+                <div class="col s12">
+                    <section class="left-align">
+                        <p>
+                            <h5>Список стихотворений</h5>
+                        </p>
+                    </section>
+                </div>
             </div>
-        </form>
-    </div>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="../img/blok.png" alt="" class="circle">
+                            <span class="title">
+                                <a href="https://goo.gl/qNHQjY" data-position="top" data-tooltip="Ссылка на WiKiPedia"
+                                    class="black-text" target="_blank">Александр
+                                    Блок</span>
+                            <p><em>Ночь. Улица. Фонарь. Аптека.</em></p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/brodskiy.png" alt="" class="circle">
+                            <span class="title"><a href="https://goo.gl/cv9Byo" data-position="top" data-tooltip="Ссылка на WiKiPedia"
+                                    class="black-text" target="_blank">Иосиф
+                                    Бродский</span>
+                            <p><em>Осенний вечер в скромном городке</em><br>
+                                <em>Бродский о стихотворении "Осенний вечер в скромном городке".</em>
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons yellow-text">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/mayakovskiy.png" alt="" class="circle">
+
+                            <span class="title"><a href="https://goo.gl/hJziS3" data-position="top" data-tooltip="Ссылка на WiKiPedia"
+                                    class="black-text" target="_blank">Владимир
+                                    Маяковский</span>
+                            <p><em>А вы могли бы?</em>
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/pasternak.png" alt="" class="circle">
+                            <span class="title"><a href="https://goo.gl/7V7GK7" data-position="top" data-tooltip="Ссылка на WiKiPedia"
+                                    class="black-text" target="_blank">Борис
+                                    Пастернак</span>
+                            <p><em>Быть знаменитым некрасиво</em>
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <form class="col s12">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <button class="btn waves-effect waves-light disabled" type="submit" name="action">Submit
+                                        <i class="material-icons right">send</i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </form>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col l12">
+
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- Начало футера -->
     <footer class="page-footer">
         <div class="container">
@@ -106,6 +119,22 @@
                     <p class="grey-text text-lighten-4">Привет! Меня зовут Даниил. Начинающий front/backend
                         программист. Изучаю #JS и
                         #Python.</p>
+                </div>
+                <div class="col l2 center-align">
+                    <section class="center-align">
+                        <span class="pie-text">JS && NODE.JS</span>
+                    </section>
+                    <span class="chart" data-percent="15">
+                        <span class="percent"></span>
+                    </span>
+                </div>
+                <div class="col l2 center-align">
+                    <section class="center-align">
+                        <span class="pie-text">PYTHON</span>
+                    </section>
+                    <span class="chart" data-percent="10">
+                        <span class="percent"></span>
+                    </span>
                 </div>
             </div>
         </div>
@@ -117,6 +146,26 @@
     </footer>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script> 
-</body> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script>
+        $(function () {
+            $('.chart').easyPieChart({
+                size: 90,
+                barColor: '#009688',
+                easing: 'easeOutBounce',
+                onStep: function (from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+            });
+            var chart = window.chart = $('.chart').data('easyPieChart');
+            $('.js_update').on('click', function () {
+                chart.update(Math.random() * 200 - 100);
+            });
+        });
+    </script>
+
+</body>
+
 </html>
